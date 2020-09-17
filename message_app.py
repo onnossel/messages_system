@@ -1,8 +1,6 @@
 from flask import Flask, request, jsonify, session
 from pymongo import MongoClient
 import datetime
-import json
-import os
 
 
 app = Flask(__name__)
