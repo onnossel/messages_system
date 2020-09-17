@@ -14,7 +14,7 @@ USERS_COLLECTION = db.users
 MESSAGES_COLLECTION = db.messages
 
 
-@app.route('/sign_up', methods=['POST'])
+@app.route('/', methods=['GET','POST'])
 def home():
     pass
 
