@@ -16,7 +16,7 @@ MESSAGES_COLLECTION = db.messages
 
 @app.route('/', methods=['GET','POST'])
 def home():
-    pass
+    return 'This is home route'
 
 
 @app.route('/sign_up', methods=['POST'])
