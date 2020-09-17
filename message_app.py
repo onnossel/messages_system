@@ -15,6 +15,11 @@ MESSAGES_COLLECTION = db.messages
 
 
 @app.route('/sign_up', methods=['POST'])
+def home():
+    pass
+
+
+@app.route('/sign_up', methods=['POST'])
 def sign_up():
     if request.is_json:
         try:
